@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'users',
     'pages.apps.PagesConfig',
     'crispy_forms',
+    'articles.apps.ArticlesConfig',
+
 ]
 
 AUTH_USER_MODEL = 'users.CustomUser'
@@ -116,7 +118,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Bishkek'
 
 USE_I18N = True
 
@@ -138,5 +140,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER =
-EMAIL_HOST_PASSWORD = 
+EMAIL_HOST_USER = 'ohanefk@gmail.com'
+EMAIL_HOST_PASSWORD = '41752417fk'
